@@ -1,0 +1,46 @@
+
+All my command: Hazem Yassin 37-5132
+
+
+$ git init
+
+$ git config --global user.name'HazemYassin'
+
+$ git config --global user.email'hazem.yassin@student.guc.edu.eg'
+
+$ git add GitBranching.txt
+
+$ git add DistributedGit.txt
+
+$ git add GettingStarted.txt
+
+$ git rm --cached GitBranching.txt
+
+$ git add .
+
+$ git commit --m 'adding the 3 files to my repo'
+
+$ git remote add origin https://github.com/HazemYassin/MyRepo.git
+
+$ git push -u origin master
+
+$ touch README.md
+
+$ git branch ReadMe
+
+$ git checkout ReadME
+
+$ git add README.md
+
+$ git commit --m 'adding the ReadME file to my repo'
+
+$ git merge 'master'
+
+$ git add AllMyCommands.txt
+
+$ git commit --m'adding AllMyCommands file to my repo'
+
+$ git add .
+
+$ git push
+
